@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		221A2C842C9D435500F08A49 /* siginUpApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221A2C832C9D435500F08A49 /* siginUpApp.swift */; };
+		221A2C862C9D435500F08A49 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221A2C852C9D435500F08A49 /* ContentView.swift */; };
+		221A2C882C9D435700F08A49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 221A2C872C9D435700F08A49 /* Assets.xcassets */; };
+		221A2C8B2C9D435700F08A49 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 221A2C8A2C9D435700F08A49 /* Preview Assets.xcassets */; };
+		221A2C952C9D435700F08A49 /* siginUpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221A2C942C9D435700F08A49 /* siginUpTests.swift */; };
+		221A2C9F2C9D435700F08A49 /* siginUpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221A2C9E2C9D435700F08A49 /* siginUpUITests.swift */; };
+		221A2CA12C9D435700F08A49 /* siginUpUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221A2CA02C9D435700F08A49 /* siginUpUITestsLaunchTests.swift */; };
+		221A2CB62C9D43BE00F08A49 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 221A2CB22C9D43BE00F08A49 /* Roboto-Medium.ttf */; };
+		221A2CB72C9D43BE00F08A49 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 221A2CB32C9D43BE00F08A49 /* Roboto-Regular.ttf */; };
+		221A2CB82C9D43BE00F08A49 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 221A2CB42C9D43BE00F08A49 /* Roboto-Bold.ttf */; };
+		221A2CB92C9D43BE00F08A49 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 221A2CB52C9D43BE00F08A49 /* Roboto-Black.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		221A2C912C9D435700F08A49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 221A2C782C9D435500F08A49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 221A2C7F2C9D435500F08A49;
+			remoteInfo = siginUp;
+		};
+		221A2C9B2C9D435700F08A49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 221A2C782C9D435500F08A49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 221A2C7F2C9D435500F08A49;
+			remoteInfo = siginUp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		221A2C802C9D435500F08A49 /* siginUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = siginUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		221A2C832C9D435500F08A49 /* siginUpApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = siginUpApp.swift; sourceTree = "<group>"; };
+		221A2C852C9D435500F08A49 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		221A2C872C9D435700F08A49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		221A2C8A2C9D435700F08A49 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		221A2C902C9D435700F08A49 /* siginUpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = siginUpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		221A2C942C9D435700F08A49 /* siginUpTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = siginUpTests.swift; sourceTree = "<group>"; };
+		221A2C9A2C9D435700F08A49 /* siginUpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = siginUpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		221A2C9E2C9D435700F08A49 /* siginUpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = siginUpUITests.swift; sourceTree = "<group>"; };
+		221A2CA02C9D435700F08A49 /* siginUpUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = siginUpUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		221A2CB22C9D43BE00F08A49 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		221A2CB32C9D43BE00F08A49 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		221A2CB42C9D43BE00F08A49 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		221A2CB52C9D43BE00F08A49 /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		221A2C7D2C9D435500F08A49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		221A2C8D2C9D435700F08A49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		221A2C972C9D435700F08A49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		221A2C772C9D435500F08A49 = {
+			isa = PBXGroup;
+			children = (
+				221A2CB12C9D43BE00F08A49 /* Font */,
+				221A2C822C9D435500F08A49 /* siginUp */,
+				221A2C932C9D435700F08A49 /* siginUpTests */,
+				221A2C9D2C9D435700F08A49 /* siginUpUITests */,
+				221A2C812C9D435500F08A49 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		221A2C812C9D435500F08A49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				221A2C802C9D435500F08A49 /* siginUp.app */,
+				221A2C902C9D435700F08A49 /* siginUpTests.xctest */,
+				221A2C9A2C9D435700F08A49 /* siginUpUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		221A2C822C9D435500F08A49 /* siginUp */ = {
+			isa = PBXGroup;
+			children = (
+				221A2C832C9D435500F08A49 /* siginUpApp.swift */,
+				221A2C852C9D435500F08A49 /* ContentView.swift */,
+				221A2C872C9D435700F08A49 /* Assets.xcassets */,
+				221A2C892C9D435700F08A49 /* Preview Content */,
+			);
+			path = siginUp;
+			sourceTree = "<group>";
+		};
+		221A2C892C9D435700F08A49 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				221A2C8A2C9D435700F08A49 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		221A2C932C9D435700F08A49 /* siginUpTests */ = {
+			isa = PBXGroup;
+			children = (
+				221A2C942C9D435700F08A49 /* siginUpTests.swift */,
+			);
+			path = siginUpTests;
+			sourceTree = "<group>";
+		};
+		221A2C9D2C9D435700F08A49 /* siginUpUITests */ = {
+			isa = PBXGroup;
+			children = (
+				221A2C9E2C9D435700F08A49 /* siginUpUITests.swift */,
+				221A2CA02C9D435700F08A49 /* siginUpUITestsLaunchTests.swift */,
+			);
+			path = siginUpUITests;
+			sourceTree = "<group>";
+		};
+		221A2CB12C9D43BE00F08A49 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				221A2CB22C9D43BE00F08A49 /* Roboto-Medium.ttf */,
+				221A2CB32C9D43BE00F08A49 /* Roboto-Regular.ttf */,
+				221A2CB42C9D43BE00F08A49 /* Roboto-Bold.ttf */,
+				221A2CB52C9D43BE00F08A49 /* Roboto-Black.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		221A2C7F2C9D435500F08A49 /* siginUp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 221A2CA42C9D435700F08A49 /* Build configuration list for PBXNativeTarget "siginUp" */;
+			buildPhases = (
+				221A2C7C2C9D435500F08A49 /* Sources */,
+				221A2C7D2C9D435500F08A49 /* Frameworks */,
+				221A2C7E2C9D435500F08A49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = siginUp;
+			productName = siginUp;
+			productReference = 221A2C802C9D435500F08A49 /* siginUp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		221A2C8F2C9D435700F08A49 /* siginUpTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 221A2CA72C9D435700F08A49 /* Build configuration list for PBXNativeTarget "siginUpTests" */;
+			buildPhases = (
+				221A2C8C2C9D435700F08A49 /* Sources */,
+				221A2C8D2C9D435700F08A49 /* Frameworks */,
+				221A2C8E2C9D435700F08A49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				221A2C922C9D435700F08A49 /* PBXTargetDependency */,
+			);
+			name = siginUpTests;
+			productName = siginUpTests;
+			productReference = 221A2C902C9D435700F08A49 /* siginUpTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		221A2C992C9D435700F08A49 /* siginUpUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 221A2CAA2C9D435700F08A49 /* Build configuration list for PBXNativeTarget "siginUpUITests" */;
+			buildPhases = (
+				221A2C962C9D435700F08A49 /* Sources */,
+				221A2C972C9D435700F08A49 /* Frameworks */,
+				221A2C982C9D435700F08A49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				221A2C9C2C9D435700F08A49 /* PBXTargetDependency */,
+			);
+			name = siginUpUITests;
+			productName = siginUpUITests;
+			productReference = 221A2C9A2C9D435700F08A49 /* siginUpUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		221A2C782C9D435500F08A49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					221A2C7F2C9D435500F08A49 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					221A2C8F2C9D435700F08A49 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 221A2C7F2C9D435500F08A49;
+					};
+					221A2C992C9D435700F08A49 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 221A2C7F2C9D435500F08A49;
+					};
+				};
+			};
+			buildConfigurationList = 221A2C7B2C9D435500F08A49 /* Build configuration list for PBXProject "siginUp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 221A2C772C9D435500F08A49;
+			productRefGroup = 221A2C812C9D435500F08A49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				221A2C7F2C9D435500F08A49 /* siginUp */,
+				221A2C8F2C9D435700F08A49 /* siginUpTests */,
+				221A2C992C9D435700F08A49 /* siginUpUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		221A2C7E2C9D435500F08A49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				221A2C8B2C9D435700F08A49 /* Preview Assets.xcassets in Resources */,
+				221A2C882C9D435700F08A49 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		221A2C8E2C9D435700F08A49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		221A2C982C9D435700F08A49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				221A2CB72C9D43BE00F08A49 /* Roboto-Regular.ttf in Resources */,
+				221A2CB62C9D43BE00F08A49 /* Roboto-Medium.ttf in Resources */,
+				221A2CB82C9D43BE00F08A49 /* Roboto-Bold.ttf in Resources */,
+				221A2CB92C9D43BE00F08A49 /* Roboto-Black.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		221A2C7C2C9D435500F08A49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				221A2C862C9D435500F08A49 /* ContentView.swift in Sources */,
+				221A2C842C9D435500F08A49 /* siginUpApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		221A2C8C2C9D435700F08A49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				221A2C952C9D435700F08A49 /* siginUpTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		221A2C962C9D435700F08A49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				221A2CA12C9D435700F08A49 /* siginUpUITestsLaunchTests.swift in Sources */,
+				221A2C9F2C9D435700F08A49 /* siginUpUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		221A2C922C9D435700F08A49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 221A2C7F2C9D435500F08A49 /* siginUp */;
+			targetProxy = 221A2C912C9D435700F08A49 /* PBXContainerItemProxy */;
+		};
+		221A2C9C2C9D435700F08A49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 221A2C7F2C9D435500F08A49 /* siginUp */;
+			targetProxy = 221A2C9B2C9D435700F08A49 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		221A2CA22C9D435700F08A49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		221A2CA32C9D435700F08A49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		221A2CA52C9D435700F08A49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"siginUp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Steve-Jobs.siginUp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		221A2CA62C9D435700F08A49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"siginUp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Steve-Jobs.siginUp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		221A2CA82C9D435700F08A49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Steve-Jobs.siginUpTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/siginUp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/siginUp";
+			};
+			name = Debug;
+		};
+		221A2CA92C9D435700F08A49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Steve-Jobs.siginUpTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/siginUp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/siginUp";
+			};
+			name = Release;
+		};
+		221A2CAB2C9D435700F08A49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Steve-Jobs.siginUpUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = siginUp;
+			};
+			name = Debug;
+		};
+		221A2CAC2C9D435700F08A49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Steve-Jobs.siginUpUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = siginUp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		221A2C7B2C9D435500F08A49 /* Build configuration list for PBXProject "siginUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				221A2CA22C9D435700F08A49 /* Debug */,
+				221A2CA32C9D435700F08A49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		221A2CA42C9D435700F08A49 /* Build configuration list for PBXNativeTarget "siginUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				221A2CA52C9D435700F08A49 /* Debug */,
+				221A2CA62C9D435700F08A49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		221A2CA72C9D435700F08A49 /* Build configuration list for PBXNativeTarget "siginUpTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				221A2CA82C9D435700F08A49 /* Debug */,
+				221A2CA92C9D435700F08A49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		221A2CAA2C9D435700F08A49 /* Build configuration list for PBXNativeTarget "siginUpUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				221A2CAB2C9D435700F08A49 /* Debug */,
+				221A2CAC2C9D435700F08A49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 221A2C782C9D435500F08A49 /* Project object */;
+}

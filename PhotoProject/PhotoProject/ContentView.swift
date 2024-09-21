@@ -6,19 +6,73 @@
 //
 
 import SwiftUI
+import PhotosUI
 
 struct ContentView: View {
+    @State private var selectedItems: [PhotosPickerItem] = []
+    @State private var selectedPhotosData: [Data] = []
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+       
+        
+        NavigationStack {
+                    
+                    ScrollView {
+                        VStack {
+                            ForEach(selectedPhotosData, id: \.self) { photoData in
+                                if let image = UIImage(data: photoData) {
+                                    Image(uiImage: image)
+                                        .resizable()
+                                        .scaledToFit()
+                                        .cornerRadius(10.0)
+                                        .padding(.horizontal)
+                                }
+                            }
+                        }
+                    }
+                    
+                    
+                    .navigationTitle("Photos")
+                    .toolbar {
+                        ToolbarItem(placement: .navigationBarTrailing) {
+                            PhotosPicker(selection: $selectedItems, maxSelectionCount: 5, matching: .images) {
+                                Image(systemName: "photo.on.rectangle.angled")
+                            }
+                            .onChange(of: selectedItems) { newItems in
+                                for newItem in newItems {
+                                    
+                                    Task {
+                                        if let data = try? await newItem.loadTransferable(type: Data.self) {
+                                            selectedPhotosData.append(data)
+                                        }
+                                    }
+                                    
+                                }
+                            }
+                        }
+                    }
+                }
+
+        
+        
+        PhotosPicker(selection: $selectedItems,maxSelectionCount: 5, matching: .images){
+          Image(systemName: "photo.on.rectangle.angled")
         }
-        .padding()
+        .onChange(of: selectedItems){ newItems in
+            for newItem in newItems{
+                Task {
+                    if let data = try? await newItem.loadTransferable(type: Data.self){
+                        selectedPhotosData.append(data)
+                    }
+                }
+            }
+        }
     }
 }
 
-#Preview {
-    ContentView()
-}
+
+
+
+
+
+
